@@ -20,7 +20,7 @@ const cardsData = [
     Icon: UpdateIcon,
     title: "Actualizar mi CV",
     text: "Mantén tu currículum siempre al día: añade nuevas habilidades, experiencias y logros.",
-    link: "http://localhost:3001",
+    link: process.env.REACT_APP_CV_URL,
     linkText: "Actualizar ahora",
   },
   {

@@ -7,7 +7,6 @@ import {
 import './App.css';
 import BenefitsSection from './components/BenefitsSection';
 import FAQSection from './components/FAQSection';
-import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import HeroSection2 from './components/HeroSection2';
 import PricingSection from './components/PricingSection';
