@@ -1,0 +1,161 @@
+/* Sección principal */
+.pricing-section {
+  background-color: #2E2E2E;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* Contenedor centrado */
+.pricing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pricing-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+
+.pricing-subtitle {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  color: #ddd;
+}
+
+
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+
+.pricing-card {
+  background-color: #FFFFF0;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.pricing-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #2E2E2E;
+}
+.pricing-card p{
+  color: #2E2E2E;
+}
+
+.price {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #2E2E2E;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: -5%;
+}
+
+/*estilo al /mes */
+.price span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #2E2E2E;
+}
+
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  text-align: left;
+
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: 1rem;
+}
+
+.card-header-text {
+  color: #2E2E2E;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-header-text p,
+.card-header-text h3 {
+  margin: 0;
+}
+.price-black-bg {
+  background-color: #000;
+  width: 60px;       
+  height: 60px;      
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; 
+}
+.price-black-bg img {
+  width: 30px; 
+  height: 30px;
+  object-fit: cover; 
+}
+.pricing-card ul li {
+  margin-bottom: 0.5rem;
+  color: #2E2E2E;
+}
+/*Titulo Beneficio*/
+.pricing-card ul li:first-child {
+  font-size: 1.3rem; 
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+/* svg icono*/
+.pricing-card ul li svg {
+  margin-right: 0.5rem; 
+  vertical-align: middle;
+}
+
+.btn-primary {
+  background-color: #2628DD;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: none;
+}
+
+/* Efecto hover en el botón */
+.btn-primary:hover {
+  background-color: #091562;
+}
+.included-features ul,
+.team-composition ul {
+  list-style: none; /* Elimina los puntos por defecto */
+  padding-left: 0; /* Elimina el padding izquierdo para alinear los iconos */
+}
+
+.included-features li,
+.team-composition li {
+  margin-bottom: 8px;
+  display: flex; /* Usa flexbox para alinear el icono y el texto */
+  align-items: center; /* Alinea verticalmente el icono y el texto */
+  gap: 0.5rem; /* Espacio entre el icono y el texto */
+}

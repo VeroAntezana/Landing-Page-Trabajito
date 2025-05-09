@@ -1,0 +1,163 @@
+.order-summary-container {   
+    font-family: sans-serif;
+    color: #333;
+ 
+    flex-direction: column; 
+  }
+  .right-order-section{
+    background-color: #FFFFF0 ;
+    padding: 2rem 2rem;
+  }
+  
+  .order-summary-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .item-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-icon {
+    margin-right: 10px;
+    color: #777;
+  }
+  
+  .item-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .item-info {
+    color: #777;
+    font-size: 0.9em;
+  }
+  
+  .item-price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .coupon-section {
+    margin-bottom: 20px;
+  }
+  
+  .coupon-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 0.95em;
+  }
+  
+  .coupon-input-group {
+    display: flex;
+  }
+  
+  .coupon-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ced4da; 
+    border-radius: 4px 0 0 4px;
+    font-size: 0.9em;
+  }
+  
+  .coupon-apply-button {
+    background-color: #e9ecef; 
+    color: #333;
+    border: 1px solid #ced4da;
+    border-left: none;
+    padding: 8px 12px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  
+  .separator {
+    border-top: 1px solid #dee2e6; 
+    margin: 20px 0;
+  }
+  
+  .subtotal-section,
+  .total-section,
+  .future-payments-section,
+  .renewal-total-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 0.95em;
+  }
+  
+  .total-section p:last-child,
+  .renewal-total-section p:last-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .future-payments-section h3 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .payment-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .payment-start-date {
+    color: #777;
+    font-size: 0.85em;
+  }
+  
+  .terms-agreement {
+    font-size: 0.8em;
+    color: #666; 
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .secure-payment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  .secure-payment svg {
+    margin-right: 5px;
+  }
+  
+  .payment-methods {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 10px;
+  }
+  
+  .payment-methods img {
+    height: 25px;
+  }
+  
+  .powered-by {
+    text-align: center;
+    margin-top: 15px;
+    color: #999;
+    font-size: 0.8em;
+  }

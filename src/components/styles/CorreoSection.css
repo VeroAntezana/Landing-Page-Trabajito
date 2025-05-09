@@ -1,0 +1,79 @@
+.correo-section {
+    background-color: #2E2E2E;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .correo-container {
+   
+    display: grid;
+    grid-template-columns:1fr 1.2fr;;
+    gap: 1rem;
+    padding: 4rem 2rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .card-lefth{
+    max-width: 50%;
+    align-items: flex-end;
+    text-align: left; 
+    flex-direction: column;
+    padding-left: 18rem;
+   
+  }
+  .newsletter-highlight{
+    color: #FFD1C1;
+  }
+  
+  .card-right{
+    background-color: #2E2E2E;
+    border-radius: 8px;
+    padding: 1.5rem;
+
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  .newsletter-form{
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  .newsletter-input {
+    background-color:  #8c8b8b;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border: none;
+    outline: none;
+    flex: 1;
+    border-radius: 8px;
+    border: 1px solid #ccc; 
+   
+  }
+  .newsletter-input::placeholder {
+    color: #d6d3d3; /* o el color que quieras */
+  }
+  
+  .newsletter-button {
+    background-color: #2b2bff;
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.875rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  
+  }
+  .newsletter-button:hover {
+    background-color: #dedee7;
+    color: #2a2a2a;
+  }

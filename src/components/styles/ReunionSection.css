@@ -1,0 +1,283 @@
+.free-reunion-container{
+    display: flex;
+    padding: 40px;
+    background-color: #FFFFF0;
+    color: #333;
+  }
+  
+  .left-reunion-section {
+    flex: 1;
+    padding-right: 40px;
+  }
+  .start-reunion{
+    max-width: 70%;
+    padding-left: 12%;
+  }
+
+  .left-reunion-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .left-reunion-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .meeting-info {
+    margin-top: 30px;
+    background-color:  #2E2E2E;
+    color: white;
+    padding: 2rem 1rem;
+    margin-left: -10%;
+    border-radius: 10px;
+  }
+  
+  .meeting-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .meeting-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .meeting-info li {
+    margin-bottom: 8px;
+  }
+  
+  .free-reunion-offer {
+    margin-top: 40px;
+    background-color:  #2E2E2E;
+    color: white;
+    padding: 20px;
+    margin-left: -10%;
+    border-radius: 10px;
+    
+  }
+  
+  .free-reunion-offer p {
+    margin-bottom: 10px;
+    
+  }
+
+  .right-reunion-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .scheduling-container {
+    background-color: #333;
+    color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 360px; 
+  }
+  
+  .scheduling-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    color: #ddd;
+  }
+  
+  .scheduling-question {
+    margin-bottom: 20px;
+  }
+  
+  .scheduling-question p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .timezone-selector {
+    background-color: #333; /* Fondo oscuro para el selector */
+    color: #f0f0f0; /* Texto claro */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #555; 
+    cursor: pointer; 
+    position: relative; 
+  }
+  .timezone-selector.open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .timezone-selector p {
+    margin: 0;
+  }
+  .dropdown-arrow {
+    font-size: 1.2em;
+    margin-left: 10px;
+  }
+  .time-input{
+    background-color: #FFFFF0;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  .time-input label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    background-color: #FFFFF0;
+  }
+  .time-labels span {
+    margin-right: 30px; 
+    
+  }
+  
+  .time-select {
+    display: flex;
+    align-items: center;
+   color: #2E2E2E;
+    padding: 10px;
+    border-radius: 5px;
+  
+  }
+  .timezone-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #444;
+    color: #f0f0f0;
+    border: 1px solid #555;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    z-index: 10; 
+    max-height: 200px; 
+    overflow-y: auto; 
+  }
+  .timezone-dropdown li {
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex; /* Permite la alineación de elementos en la fila */
+    align-items: center; /* Alinea verticalmente los elementos */
+  }
+  .timezone-dropdown li:hover {
+    background-color: #555;
+  }
+  
+  .time-select input[type="number"] {
+    width: 60px;
+    padding: 12px;
+    margin-right: 2px;
+    border: 1px solid #1a1919;
+    border-radius: 4px;
+    background-color:#ddd;
+    color: #2d0ea7;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+  }
+  
+  .time-select span {
+    margin-right: 5px;
+   color: #000;
+   font-size: 2rem;
+  }
+  
+  .ampm-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap:2px;
+  }
+  
+  .ampm-buttons button {
+    background-color: #beb2be;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 5px;
+  }
+  
+  .ampm-buttons button.active {
+    background-color: #d98e88;
+  }
+  
+  .time-labels {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: #2E2E2E;
+    margin-left: 40px;
+  }
+  
+  .time-labels span {
+    margin-right: 15px;
+  }
+  .time-labels span:nth-child(2) {
+    margin-left: 45px;
+  }
+  .time-labels span:last-child {
+    margin-left: 25px;
+  }
+  
+  .scheduling-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+  
+  }
+  
+  .scheduling-buttons button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    border: none;
+    flex: 1; 
+  }
+  
+  .scheduling-buttons .back-button {
+    background-color: #605F5F;
+    color: #ddd;
+    height: 40px;
+    margin-top: 5%;
+   
+  }
+  
+  .scheduling-buttons .next-button {
+    background-color: #FFFFF0;
+    color: black;
+  }
+  
+  .scheduling-buttons .back-button:hover {
+    background-color: #555;
+  }
+  
+  .scheduling-buttons .next-button:hover {
+    background-color: #4a31d5;
+  }
+  
+  .calendar-image {
+    margin-top: 20%;
+    margin-right: -2%;
+  }
+  
+  .calendar-image img {
+    max-width: 100%; 
+    height: auto;
+  }

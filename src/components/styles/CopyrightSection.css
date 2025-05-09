@@ -1,0 +1,11 @@
+.copyright-section {
+    background-color: #2E2E2E;  
+    color: #f4f4f4; 
+    padding: 4rem 2rem;
+    text-align: center;
+    font-size: 0.9em; 
+  }
+  
+  .copyright-section p {
+    margin: 0; 
+  }

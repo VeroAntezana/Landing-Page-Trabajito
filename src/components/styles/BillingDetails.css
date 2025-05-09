@@ -1,0 +1,161 @@
+.left-reunion-section {
+
+    background-color: #FFFFF0 ;
+   
+    padding: 2rem 2rem;
+  }
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-header-text {
+    color: #2E2E2E;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .card-header-text p,
+  .card-header-text h3 {
+    margin: 0;
+  }
+  .included-features h3{
+    display: flex;
+  }
+  .team-composition h3{
+    display: flex;
+  }
+  .price-black-bg {
+    background-color: #000;
+    width: 60px;       
+    height: 60px;      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; 
+  }
+  .price-black-bg img {
+    width: 30px; 
+    height: 30px;
+    object-fit: cover; 
+  }
+  .billing-details-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    
+    font-family: sans-serif;
+    color: #333;
+    display: flex;
+       
+  }
+  .details-factura{
+    padding: 2rem 1rem;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 60%;
+  }
+
+  .personal-details h2,
+.billing-address h2,
+.subscription-type h2,
+.payment-method h2 {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #495057;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 10px;
+}
+.form-row {
+    display: flex; /* Habilita flexbox para los elementos hijos */
+    gap: 20px; /* Espacio entre los elementos en la fila */
+    margin-bottom: 15px; /* Espacio entre filas */
+  }
+.form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #495057;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #232425;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #495057;
+    background: #FFFFF0 ;
+  }
+  
+  .checkbox-group {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .detalles{
+    padding: 2rem 1rem;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 60%;
+  }
+
+
+.subscription-type .options {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .subscription-type .option {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #FFFFF0 ;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  
+  .subscription-type .option input[type="radio"] {
+    margin-bottom: 10px;
+  }
+  
+  .subscription-type .option label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2px;
+    color: #495057;
+  }
+  
+  .subscription-type .option p {
+    margin-top: 0;
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: #6c757d;
+    white-space: nowrap;
+  }
+  
+  .payment-method .payment-options {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
